@@ -1,7 +1,7 @@
 require 'yaml'
 
 def rubdom
-  members = YAML.load_file("./members.yml")['rubdom']['members']
+  members = YAML.load_file("./members.yml")['members']
   members[rand(members.size)]
 end
 
