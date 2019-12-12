@@ -3,4 +3,5 @@
 
 ```sh
 $ ruby main.rb
+$ go run main.go
 ```
