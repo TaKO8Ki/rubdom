@@ -1,4 +1,3 @@
-rubdom:
-  members:
-    - hoge
-    - hogehoge
+members:
+  - hoge
+  - hogehoge
