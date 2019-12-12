@@ -10,7 +10,7 @@ import (
 	yaml "gopkg.in/yaml.v2"
 )
 
-type Date struct {
+type Data struct {
 	Members []string `yaml:"members"`
 }
 
@@ -23,7 +23,7 @@ func main() {
 		panic(err)
 	}
 
-	var data Date
+	var data Data
 	err = yaml.Unmarshal(buf, &data)
 	if err != nil {
 		panic(err)
