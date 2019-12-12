@@ -23,4 +23,4 @@ puts "選ばれし者を探しています..."
   progress_bar(j, 1000)
 end
 
-puts "\n選ばれし者は#{rubdom}でした"
+puts "\n選ばれし者は#{rubdom}でした！！！"
